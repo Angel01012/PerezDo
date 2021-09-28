@@ -2,8 +2,7 @@
 1. ActionListener 
 > Esta interfaz se utiliza para recibir los eventos de acción. La clase que procesa el ActionEvent debe implementar esta interfaz. El objeto de esa clase debe estar registrado con un componente. El objeto se puede registrar usando el método addActionListener (). Cuando ocurre el evento de acción, se invoca el método actionPerformed de ese objeto.
 2. ComponentListener
-> 
-Esta interfaz se utiliza para recibir los eventos de los componentes. La clase que procesa el ComponentEvent debe implementar esta interfaz. El objeto de esa clase debe estar registrado con un componente. El objeto se puede registrar usando el método addComponentListener (). Los eventos de componente se generan solo con fines informativos.
+> Esta interfaz se utiliza para recibir los eventos de los componentes. La clase que procesa el ComponentEvent debe implementar esta interfaz. El objeto de esa clase debe estar registrado con un componente. El objeto se puede registrar usando el método addComponentListener (). Los eventos de componente se generan solo con fines informativos.
 3. ItemListener 
 - Esta interfaz se utiliza para recibir los eventos del artículo. La clase que procesa el ItemEvent debe implementar esta interfaz. El objeto de esa clase debe estar registrado con un componente. El objeto se puede registrar mediante el método addItemListener (). Cuando ocurre el evento de acción, se invoca el método itemStateChanged de ese objeto.
 4. KeyListener
